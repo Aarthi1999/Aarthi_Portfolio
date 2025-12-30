@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { PROJECTS } from "./constant";
-import { SKILLS_MAP } from "./constant";
+import { PROJECTS } from "../constant";
+import { SKILLS_MAP } from "../constant";
 
 export default function Projects() {
   return (

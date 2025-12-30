@@ -5,7 +5,7 @@ import Home from "./components/Home";
 import Resume from "./components/Resume";
 import Skills from "./components/Skills";
 import "./globals.css";
-import Projects from "./Projects";
+import Projects from "./components/Projects";
 
 export default function Page() {
   return (
