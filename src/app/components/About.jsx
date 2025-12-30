@@ -50,7 +50,7 @@ export default function About() {
         width={300}
         height={300}
         alt="My picture"
-        src="/myPic.jpg"
+        src="/my_picture.jpg"
         className="rounded-xl"
       />
     </div>
