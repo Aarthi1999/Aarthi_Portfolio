@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Resume from "./components/Resume";
@@ -26,8 +27,12 @@ export default function Page() {
         <section id="about">
           <About />
         </section>
-        <section id="resume"><Resume/></section>
-        <section id="contact">Contact</section>
+        <section id="resume">
+          <Resume />
+        </section>
+        <section id="contact" className="bg-primary text-white min-h-[calc(100vh-4rem)] flex items-center justify-center mt-16">
+          <Contact />
+        </section>
       </main>
     </>
   );

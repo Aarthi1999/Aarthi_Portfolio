@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Portal from "./Portal";
 
 export default function Header() {
@@ -11,7 +10,7 @@ export default function Header() {
   const scroll = (header) => {
     const section = document.getElementById(header.toLowerCase());
     if (section) {
-      const yOffset = -75; // negative = scroll 25px above
+      const yOffset = -75;
       const y =
         section.getBoundingClientRect().top + window.pageYOffset + yOffset;
       window.scrollTo({ top: y, behavior: "smooth" });
@@ -40,7 +39,7 @@ export default function Header() {
           className="md:hidden lg:hidden pl-7 pt-12"
           onClick={() => setOpen(!open)}
         >
-          <Bars3Icon className="w-6 h-6 text-white" />
+          {/* <Bars3Icon className="w-6 h-6 text-white" /> */}
         </button>
       </Portal>
     </div>

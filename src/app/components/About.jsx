@@ -8,9 +8,10 @@ export default function About() {
       <div className="text-primary">
         <h1 className="text-2xl">About</h1>
         <p className="text-justify pt-2">
-          I'm Aarthi Tamilselvan, Senior Software Engineer at Ideas2IT Technologies, specializing in building
-          scalable and user-focused web applications, with solid foundational
-          experience in backend technologies such as Spring Boot and .NET.
+          I'm Aarthi Tamilselvan, Senior Software Engineer at Ideas2IT
+          Technologies, specializing in building scalable and user-focused web
+          applications, with solid foundational experience in backend
+          technologies such as Spring Boot and .NET.
         </p>
         <h2 className="pt-3 text-base">General Info</h2>
         <div className="grid grid-cols-[auto_1fr] gap-x-2 gap-y-3 text-sm max-w-3/4 pt-2">

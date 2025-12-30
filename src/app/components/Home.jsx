@@ -26,7 +26,7 @@ export default function Home() {
           user-centric, and AI-enhanced solutions.
         </p>
       </div>
-      <div className="relative w-[300px] h-[300px] sm:w-[350px] sm:h-[350px] md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px] mask-radial">
+      <div className="relative w-75 h-75 sm:w-87.5 sm:h-87.5 md:w-100 md:h-100 lg:w-125 lg:h-125 mask-radial">
         <Image
           src="/computer.jpg"
           alt="Laptop Setup"

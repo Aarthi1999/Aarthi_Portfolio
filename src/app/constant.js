@@ -96,13 +96,13 @@ export const SKILLS_MAP = {
   tailwindcss: "/skills/tailwind.png",
 };
 
-  export const PERSONAL_DETAILS = [
-    { label: "Date of Birth", value: "April 22, 1999" },
-    {
-      label: "Address",
-      value:
-        "G-5, VGN Park West Apartments, Devadoss Street, Mogappair West, Chennai – 37",
-    },
-    { label: "Email", value: "taarthisri99@gmail.com", type: "email" },
-    { label: "Phone", value: "9790807924", type: "phone" },
-  ];
+export const PERSONAL_DETAILS = [
+  { label: "Date of Birth", value: "April 22, 1999" },
+  {
+    label: "Address",
+    value:
+      "G-5, VGN Park West Apartments, Devadoss Street, Mogappair West, Chennai – 37",
+  },
+  { label: "Email", value: "taarthisri99@gmail.com", type: "email" },
+  { label: "Phone", value: "9790807924", type: "phone" },
+];
