@@ -44,7 +44,6 @@ export default function About() {
         height={300}
         alt="line"
         src="/vertical_line.png"
-        className=""
       />
       <Image
         width={300}
